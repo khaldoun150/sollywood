@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأنوار مول | عروض الجمعة البيضاء - Alanwar Mall</title>
+    
+    <!-- SEO & Open Graph -->
+    <meta name="description" content="عروض الجمعة البيضاء من الأنوار مول. خصومات كبرى على الأجهزة الكهربائية والمنزلية. منذ عام 1988.">
+    <meta property="og:title" content="الأنوار مول - عروض الجمعة البيضاء">
+    <meta property="og:description" content="خصومات تصل إلى 40% على أفضل الماركات. تواصل معنا عبر واتساب.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Alanwar+Mall+White+Friday">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "الأنوار مول - Alanwar Mall",
+      "foundingDate": "1988",
+      "description": "أكثر من 35 سنة خبرة في مجال الأجهزة الكهربائية.",
+      "telephone": "+201144410062"
+    }
+    </script>
+
+    <style>
+        /* ============================================================
+           1. نظام الألوان والخطوط (Dark Glassmorphism Theme)
+           ============================================================ */
+        :root {
+            /* الألوان الأساسية */
+            --bg: #08142F;           /* كحلي داكن جداً للخلفية */
+            --bg-2: #0D1E45;         /* كحلي أفتح للأقسام */
+            --card-bg: rgba(255, 255, 255, 0.05); /* زجاجي شفاف */
+            --card-border: rgba(255, 255, 255, 0.1);
+            
+            --primary: #FFFFFF;      /* أبيض للعناوين */
+            --gold: #F5A524;         /* ذهبي للأسعار والتمييز */
+            --gold-hover: #D98B1A;
+            --teal: #5FA89A;         /* تركواز للتفاصيل */
+            
+            /* النصوص */
+            --text: #E2E8F0;         /* رمادي فاتح جداً للنصوص */
+            --text-light: #A0B2C6;   /* رمادي مزرق للنصوص الثانوية */
+            --text-white: #FFFFFF;
+            
+            /* الحالات */
+            --success: #10B981;
+            --danger: #EF4444;
+            
+            /* المسافات (نظام 8px) */
+            --sp-1: 8px;
+            --sp-2: 16px;
+            --sp-3: 24px;
+            --sp-4: 32px;
+            --sp-5: 48px;
+            --sp-6: 64px;
+            
+            /* الحواف */
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            
+            /* الظلال */
+            --shadow-sm: 0 4px 12px rgba(0,0,0,0.3);
+            --shadow-lg: 0 10px 30px rgba(0,0,0,0.5);
+            
+            --transition: all 0.3s ease;
+        }
+
+        /* دعم تقليل الحركة */
+        @media (prefers-reduced-motion: reduce) {
+            * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+        }
+
+        /* ============================================================
+           2. إعدادات عامة
+           ============================================================ */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(58, 141, 222, 0.08), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(245, 165, 36, 0.05), transparent 25%);
+            background-attachment: fixed;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Cairo', sans-serif;
+            color: var(--primary);
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        button, input, select, textarea { font-family: inherit; font-size: 16px; }
+        
+        /* الأيقونات */
+        svg { width: 24px; height: 24px; stroke: currentColor; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--sp-2);
+        }
+
+        /* الأزرار العامة (أهداف لمس لا تقل عن 44px) */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--sp-1);
+            padding: 12px 24px;
+            min-height: 48px;
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            cursor: pointer;
+            border: none;
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .btn-gold {
+            background-color: var(--gold);
+            color: var(--bg);
+            box-shadow: 0 4px 15px rgba(245, 165, 36, 0.2);
+        }
+        .btn-gold:hover { background-color: var(--gold-hover); transform: translateY(-2px); }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--bg);
+        }
+        .btn-primary:hover { background-color: #E2E8F0; transform: translateY(-2px); }
+
+        .btn-wa {
+            background-color: #25D366;
+            color: white;
+        }
+        .btn-wa:hover { background-color: #1eb955; }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--text-light);
+            color: var(--primary);
+        }
+        .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: var(--primary); }
+
+        /* ============================================================
+           3. الهيدر (Header)
+           ============================================================ */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(8, 20, 47, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--card-border);
+            padding: var(--sp-1) 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 64px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo img {
+            height: 45px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .nav-links {
+            display: none;
+            gap: var(--sp-3);
+        }
+
+        .nav-links a {
+            font-weight: 700;
+            color: var(--text);
+            transition: var(--transition);
+            font-size: 15px;
+        }
+        .nav-links a:hover { color: var(--gold); }
+
+        .header-actions { display: flex; align-items: center; gap: var(--sp-1); }
+
+        .menu-toggle { display: block; background: none; border: none; cursor: pointer; color: var(--primary); }
+
+        /* ============================================================
+           4. قسم البطل (Hero) والعداد التنازلي
+           ============================================================ */
+        .hero {
+            padding: var(--sp-5) 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero h1 { color: var(--primary); font-size: clamp(28px, 5vw, 42px); margin-bottom: var(--sp-2); }
+        .hero h1 span { color: var(--gold); text-shadow: 0 0 20px rgba(245,165,36,0.4); }
+        .hero p { font-size: clamp(16px, 2vw, 20px); color: var(--text-light); margin-bottom: var(--sp-4); max-width: 600px; margin-inline: auto; }
+
+        .countdown-container {
+            display: flex; justify-content: center; gap: var(--sp-2); margin-bottom: var(--sp-4); direction: ltr;
+        }
+        .countdown-box {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: var(--radius-sm); padding: var(--sp-1); min-width: 70px;
+            display: flex; flex-direction: column; align-items: center;
+            backdrop-filter: blur(10px);
+        }
+        .countdown-box span { font-size: 28px; font-weight: 800; color: var(--gold); }
+        .countdown-box label { font-size: 12px; color: var(--text-light); }
+
+        .hero-btns { display: flex; justify-content: center; gap: var(--sp-2); flex-wrap: wrap; z-index: 2; position: relative; }
+
+        /* ============================================================
+           5. شريط عرض بيكو (Beko Banner)
+           ============================================================ */
+        .beko-banner {
+            background: linear-gradient(135deg, rgba(245, 165, 36, 0.15), rgba(95, 168, 154, 0.15));
+            border: 1px solid var(--gold);
+            border-radius: var(--radius-md);
+            padding: var(--sp-3);
+            margin: var(--sp-4) auto;
+            max-width: 800px;
+            display: flex; align-items: center; gap: var(--sp-2); flex-wrap: wrap; justify-content: center; text-align: center;
+            box-shadow: 0 0 30px rgba(245, 165, 36, 0.1);
+        }
+        .beko-banner svg { color: var(--gold); width: 40px; height: 40px; }
+        .beko-banner p { font-size: 18px; font-weight: 700; color: var(--primary); margin: 0; }
+
+        /* ============================================================
+           6. قسم الثقة (Trust Section)
+           ============================================================ */
+        .trust-section {
+            padding: var(--sp-5) 0;
+            background: var(--bg-2);
+            border-top: 1px solid var(--card-border);
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .trust-grid {
+            display: grid; grid-template-columns: 1fr; gap: var(--sp-4); text-align: center;
+        }
+
+        .trust-item h3 { font-size: 40px; color: var(--gold); margin-bottom: var(--sp-1); text-shadow: 0 0 20px rgba(245,165,36,0.3); }
+        .trust-item p { font-size: 16px; font-weight: 500; color: var(--text-light); }
+        .trust-item h4 { font-size: 22px; color: var(--primary); margin-bottom: var(--sp-1); }
+
+        /* ============================================================
+           7. شريط الأدوات (الفلاتر والبحث)
+           ============================================================ */
+        .toolbar {
+            background: var(--card-bg); border-radius: var(--radius-md); padding: var(--sp-2);
+            box-shadow: var(--shadow-sm); margin-bottom: var(--sp-3); border: 1px solid var(--card-border);
+            backdrop-filter: blur(10px);
+        }
+
+        .toolbar-top {
+            display: flex; flex-direction: column; gap: var(--sp-2); margin-bottom: var(--sp-2);
+        }
+
+        .search-box { position: relative; width: 100%; }
+        .search-box input {
+            width: 100%; padding: 12px 16px 12px 44px; border-radius: var(--radius-sm);
+            border: 1px solid var(--card-border); background: rgba(0,0,0,0.2);
+            color: var(--primary); font-size: 15px; outline: none; transition: var(--transition);
+        }
+        .search-box input:focus { border-color: var(--gold); }
+        .search-box svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--text-light); }
+
+        .sort-box select {
+            width: 100%; padding: 12px; border-radius: var(--radius-sm);
+            border: 1px solid var(--card-border); background: rgba(0,0,0,0.2);
+            color: var(--primary); font-size: 15px; cursor: pointer; outline: none;
+        }
+        .sort-box select option { background: var(--bg-2); color: white; }
+
+        .categories-scroll {
+            display: flex; gap: var(--sp-1); overflow-x: auto; padding-bottom: var(--sp-1);
+            scrollbar-width: none;
+        }
+        .categories-scroll::-webkit-scrollbar { display: none; }
+
+        .cat-pill {
+            background: rgba(255,255,255,0.05); border: 1px solid var(--card-border); color: var(--text); 
+            padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px;
+            cursor: pointer; white-space: nowrap; transition: var(--transition);
+        }
+        .cat-pill:hover { background: rgba(255,255,255,0.1); }
+        .cat-pill.active { background: var(--gold); color: var(--bg); border-color: var(--gold); }
+
+        /* ============================================================
+           8. شبكة المنتجات (Product Grid)
+           ============================================================ */
+        .products-grid {
+            display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--sp-2); margin-bottom: var(--sp-4);
+        }
+
+        .product-card {
+            background: var(--card-bg); border-radius: var(--radius-md); overflow: hidden;
+            box-shadow: var(--shadow-sm); border: 1px solid var(--card-border);
+            display: flex; flex-direction: column; transition: var(--transition); position: relative;
+            backdrop-filter: blur(10px);
+        }
+        .product-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: rgba(255,255,255,0.25); }
+
+        .product-img {
+            width: 100%; aspect-ratio: 1; background: rgba(0,0,0,0.2); position: relative;
+            display: flex; align-items: center; justify-content: center; padding: var(--sp-2);
+        }
+        .product-img img { width: 100%; height: 100%; object-fit: contain; }
+        .product-img .placeholder-icon { width: 64px; height: 64px; color: var(--text-light); opacity: 0.5; }
+
+        .badges-container { position: absolute; top: 10px; right: 10px; display: flex; flex-direction: column; gap: 4px; z-index: 2; }
+        .badge {
+            padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 700;
+            color: white; text-align: center;
+        }
+        .badge-discount { background: var(--danger); }
+        .badge-bestseller { background: var(--gold); color: var(--bg); }
+        .badge-limited { background: var(--primary); color: var(--bg); }
+
+        .product-info { padding: var(--sp-2); display: flex; flex-direction: column; flex: 1; }
+        
+        .product-title {
+            font-size: 14px; font-weight: 700; color: var(--primary); margin-bottom: var(--sp-1);
+            display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+            line-height: 1.4; min-height: 40px;
+        }
+
+        .product-price { margin-top: auto; margin-bottom: var(--sp-2); }
+        .price-current { font-size: 18px; font-weight: 800; color: var(--gold); }
+        .price-old { font-size: 13px; color: var(--text-light); text-decoration: line-through; margin-right: var(--sp-1); }
+        
+        .product-card .btn { width: 100%; font-size: 14px; padding: 8px; min-height: 40px; }
+
+        /* Load More & Empty State */
+        .load-more-container { text-align: center; margin-bottom: var(--sp-5); }
+        .empty-state { text-align: center; padding: var(--sp-5); background: var(--card-bg); border-radius: var(--radius-md); grid-column: 1 / -1; border: 1px solid var(--card-border); }
+        .empty-state h3 { margin-bottom: var(--sp-1); }
+
+        /* ============================================================
+           9. نهاية الموقع (Copyright)
+           ============================================================ */
+        .copyright-text {
+            text-align: center;
+            padding: var(--sp-4) 0 var(--sp-3);
+            color: var(--text-light);
+            font-size: 14px;
+            font-weight: 500;
+            border-top: 1px solid var(--card-border);
+            margin-top: var(--sp-4);
+        }
+
+        /* ============================================================
+           10. العناصر العائمة (Floating)
+           ============================================================ */
+        .float-wa {
+            position: fixed; bottom: 20px; left: 20px; width: 56px; height: 56px;
+            background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            color: white; box-shadow: var(--shadow-lg); z-index: 90; transition: var(--transition);
+        }
+        .float-wa:hover { transform: scale(1.1); }
+        .float-wa svg { width: 30px; height: 30px; fill: currentColor; stroke: none; }
+
+        .back-to-top {
+            position: fixed; bottom: 20px; right: 20px; width: 44px; height: 44px;
+            background: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            color: var(--bg); box-shadow: var(--shadow-md); z-index: 90; cursor: pointer; border: none;
+            opacity: 0; visibility: hidden; transition: var(--transition);
+        }
+        .back-to-top.show { opacity: 1; visibility: visible; }
+
+        /* ============================================================
+           11. لوحة التحكم المخفية (Admin Dashboard)
+           ============================================================ */
+        .admin-overlay {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8);
+            backdrop-filter: blur(5px); z-index: 1000; display: none; align-items: center; justify-content: center; padding: var(--sp-2);
+        }
+        .admin-overlay.active { display: flex; }
+
+        .admin-panel {
+            background: var(--bg-2); border-radius: var(--radius-md); width: 100%; max-width: 900px;
+            max-height: 90vh; display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--card-border);
+        }
+
+        .admin-header {
+            padding: var(--sp-2); border-bottom: 1px solid var(--card-border); display: flex; justify-content: space-between; align-items: center;
+            background: rgba(0,0,0,0.3);
+        }
+        .admin-header h2 { color: var(--primary); font-size: 20px; }
+        .close-admin { background: none; border: none; color: var(--text-light); cursor: pointer; }
+        .close-admin:hover { color: var(--danger); }
+
+        .admin-tabs {
+            display: flex; border-bottom: 1px solid var(--card-border); background: rgba(0,0,0,0.1);
+        }
+        .admin-tab {
+            padding: var(--sp-2); background: none; border: none; cursor: pointer; flex: 1;
+            font-weight: 700; color: var(--text-light); border-bottom: 3px solid transparent; transition: var(--transition);
+        }
+        .admin-tab.active { color: var(--gold); border-bottom-color: var(--gold); background: rgba(255,255,255,0.02); }
+
+        .admin-body { padding: var(--sp-3); overflow-y: auto; flex: 1; }
+        .admin-section { display: none; }
+        .admin-section.active { display: block; }
+
+        /* Forms */
+        .form-group { margin-bottom: var(--sp-2); }
+        .form-group label { display: block; font-weight: 700; margin-bottom: 4px; font-size: 14px; color: var(--primary); }
+        .form-control {
+            width: 100%; padding: 10px 12px; border: 1px solid var(--card-border); background: rgba(0,0,0,0.2);
+            color: var(--primary); border-radius: var(--radius-sm); outline: none;
+        }
+        .form-control:focus { border-color: var(--gold); }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-2); }
+        .checkbox-group { display: flex; align-items: center; gap: 8px; cursor: pointer; color: var(--text); }
+        
+        .img-preview {
+            width: 100px; height: 100px; border: 1px dashed var(--card-border); border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center; margin-top: 8px; overflow: hidden; background: rgba(0,0,0,0.2);
+        }
+        .img-preview img { width: 100%; height: 100%; object-fit: contain; }
+
+        /* Admin Lists */
+        .admin-list-item {
+            display: flex; justify-content: space-between; align-items: center; padding: var(--sp-2);
+            border: 1px solid var(--card-border); border-radius: var(--radius-sm); margin-bottom: var(--sp-1);
+            background: rgba(255,255,255,0.02);
+        }
+        .admin-list-item.hidden { opacity: 0.5; background: rgba(0,0,0,0.2); }
+        .admin-item-info h4 { font-size: 15px; margin-bottom: 2px; color: var(--primary); }
+        .admin-item-info span { font-size: 13px; color: var(--gold); font-weight: 700; }
+        .admin-actions { display: flex; gap: 8px; }
+
+        /* Responsive */
+        @media (min-width: 640px) {
+            .header-content { height: 72px; }
+            .products-grid { grid-template-columns: repeat(3, 1fr); }
+            .toolbar-top { flex-direction: row; justify-content: space-between; align-items: center; }
+            .search-box { width: 300px; }
+            .sort-box select { width: auto; }
+        }
+
+        @media (min-width: 900px) {
+            .nav-links { display: flex; }
+            .menu-toggle { display: none; }
+            .products-grid { grid-template-columns: repeat(4, 1fr); }
+            .trust-grid { grid-template-columns: 1fr 1fr; align-items: center; }
+            .hero { padding: var(--sp-6) 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================================
+         الهيدر (Header)
+         ============================================================ -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo" aria-label="الأنوار مول">
+                <img id="header-logo" src="" alt="Alanwar Mall Logo" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><text x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23F5A524\'>⚡</text></svg>'">
+                <div>
+                    <h2 style="font-size: 18px; margin-bottom: -4px; color: var(--primary);" id="header-title">الأنوار مول</h2>
+                    <span style="font-size: 11px; color: var(--gold); font-weight: 700;">Alanwar Mall</span>
+                </div>
+            </a>
+            
+            <nav class="nav-links" aria-label="القائمة الرئيسية">
+                <a href="#products">المنتجات</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="btn btn-wa" onclick="openWA()" aria-label="تواصل عبر واتساب">
+                    <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:currentColor;stroke:none;"><path d="M17.5 14.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-1.6-.8-2.7-1.5-3.7-3.3-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.6-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.9 0 1.7 1.2 3.3 1.4 3.5.2.2 2.4 3.7 5.9 5.1 2.2.9 3.1.9 4.2.8.7-.1 2.1-.9 2.4-1.7.3-.8.3-1.5.2-1.7-.1-.1-.3-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.2-1.3c1.4.8 3.1 1.3 4.8 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+                    <span>واتساب</span>
+                </button>
+                <button class="menu-toggle" aria-label="القائمة">
+                    <svg viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ============================================================
+             البطل (Hero) والعداد
+             ============================================================ -->
+        <section class="hero">
+            <div class="container">
+                <h1>الجمعة البيضاء | خصومات تصل إلى <span id="hero-discount">40%</span></h1>
+                <p>عروض حصرية على أفضل ماركات الأجهزة الكهربائية والمنزلية. العرض ساري لفترة محدودة.</p>
+                
+                <div class="countdown-container" id="countdown">
+                    <!-- JS will populate -->
+                </div>
+
+                <div class="hero-btns">
+                    <a href="#products" class="btn btn-gold">تصفح العروض</a>
+                    <button class="btn btn-outline" onclick="openWA()">تواصل معنا</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             بانر هدايا بيكو
+             ============================================================ -->
+        <div class="container">
+            <div class="beko-banner">
+                <svg viewBox="0 0 24 24"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+                <p>اشترِ من منتجات <b>Beko</b> بأكثر من 40,000 جنيه واحصل على هدية خاصة، استلمها يوم 11/12.</p>
+            </div>
+        </div>
+
+        <!-- ============================================================
+             قسم الثقة (Trust)
+             ============================================================ -->
+        <section class="trust-section">
+            <div class="container trust-grid">
+                <div class="trust-item">
+                    <h3>+35</h3>
+                    <p>سنة خبرة في مجال الأجهزة الكهربائية</p>
+                </div>
+                <div class="trust-item">
+                    <h4>منذ عام 1988</h4>
+                    <p>بفضل الله، على يد الحاج فوزي عبد الرحيم والحاج علي عبد الرحيم.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             المنتجات والفلاتر
+             ============================================================ -->
+        <section class="container" id="products" style="padding-top: var(--sp-4);">
+            <div class="toolbar">
+                <div class="toolbar-top">
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="ابحث عن منتج..." oninput="handleSearch()" aria-label="بحث">
+                        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    </div>
+                    <div class="sort-box">
+                        <select id="sort-select" onchange="handleSort()" aria-label="ترتيب المنتجات">
+                            <option value="default">الترتيب الافتراضي</option>
+                            <option value="discount-desc">الأعلى خصماً</option>
+                            <option value="price-asc">السعر: من الأقل للأعلى</option>
+                            <option value="price-desc">السعر: من الأعلى للأقل</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="categories-scroll" id="categories-container">
+                    <!-- سيتم توليد التصنيفات هنا -->
+                </div>
+            </div>
+
+            <div class="products-grid" id="products-grid">
+                <!-- سيتم توليد المنتجات هنا -->
+            </div>
+
+            <div class="load-more-container" id="load-more-container" style="display:none;">
+                <button class="btn btn-outline" onclick="loadMore()">عرض المزيد</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================================
+         نهاية الموقع
+         ============================================================ -->
+    <div class="copyright-text">
+        جميع الحقوق محفوظة Alanwar Mall
+    </div>
+
+    <!-- زر واتساب عائم -->
+    <a href="#" class="float-wa" onclick="openWA(); return false;" aria-label="تواصل عبر واتساب">
+        <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-1.6-.8-2.7-1.5-3.7-3.3-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.6-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.9 0 1.7 1.2 3.3 1.4 3.5.2.2 2.4 3.7 5.9 5.1 2.2.9 3.1.9 4.2.8.7-.1 2.1-.9 2.4-1.7.3-.8.3-1.5.2-1.7-.1-.1-.3-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.2-1.3c1.4.8 3.1 1.3 4.8 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+    </a>
+
+    <!-- زر العودة للأعلى -->
+    <button class="back-to-top" id="back-to-top" onclick="window.scrollTo({top:0, behavior:'smooth'})" aria-label="العودة للأعلى">
+        <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <!-- ============================================================
+         لوحة التحكم المخفية (Admin Dashboard)
+         ============================================================ -->
+    <div class="admin-overlay" id="admin-panel">
+        <div class="admin-panel">
+            <div class="admin-header">
+                <h2>لوحة التحكم - الأنوار مول</h2>
+                <button class="close-admin" onclick="closeAdmin()" aria-label="إغلاق">
+                    <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+            </div>
+            
+            <div class="admin-tabs">
+                <button class="admin-tab active" onclick="switchTab('tab-products', event)">المنتجات</button>
+                <button class="admin-tab" onclick="switchTab('tab-settings', event)">الإعدادات</button>
+                <button class="admin-tab" onclick="switchTab('tab-backup', event)">النسخ الاحتياطي</button>
+            </div>
+
+            <div class="admin-body">
+                <!-- تبويب المنتجات -->
+                <div id="tab-products" class="admin-section active">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--sp-2);">
+                        <h3 style="color: var(--primary);">إدارة المنتجات</h3>
+                        <button class="btn btn-gold" onclick="showProductForm()">+ إضافة منتج</button>
+                    </div>
+
+                    <!-- نموذج المنتج -->
+                    <div id="product-form-container" style="display: none; background: rgba(0,0,0,0.2); padding: var(--sp-2); border-radius: var(--radius-sm); margin-bottom: var(--sp-2); border: 1px solid var(--card-border);">
+                        <input type="hidden" id="prod-id">
+                        <div class="grid-2">
+                            <div class="form-group">
+                                <label>اسم المنتج *</label>
+                                <input type="text" id="prod-name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label>القسم *</label>
+                                <select id="prod-category" class="form-control">
+                                    <option value="ثلاجات">ثلاجات</option>
+                                    <option value="غسالات">غسالات</option>
+                                    <option value="شاشات">شاشات</option>
+                                    <option value="تكييفات">تكييفات</option>
+                                    <option value="بوتاجازات">بوتاجازات</option>
+                                    <option value="أفران">أفران</option>
+                                    <option value="غسالات أطباق">غسالات أطباق</option>
+                                    <option value="أجهزة مطبخ">أجهزة مطبخ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid-2">
+                            <div class="form-group">
+                                <label>السعر الحالي *</label>
+                                <input type="number" id="prod-price" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label>السعر القديم (اختياري)</label>
+                                <input type="number" id="prod-oldprice" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>رابط الصورة</label>
+                            <input type="text" id="prod-image" class="form-control" oninput="updateImgPreview()">
+                            <div class="img-preview" id="img-preview">
+                                <span style="font-size: 12px; color: var(--text-light);">لا توجد صورة</span>
+                            </div>
+                        </div>
+                        <div class="grid-2">
+                            <label class="checkbox-group">
+                                <input type="checkbox" id="prod-hidden"> إخفاء المنتج
+                            </label>
+                            <label class="checkbox-group">
+                                <input type="checkbox" id="prod-bestseller"> الأكثر طلباً
+                            </label>
+                            <label class="checkbox-group">
+                                <input type="checkbox" id="prod-limited"> كمية محدودة
+                            </label>
+                        </div>
+                        <div style="margin-top: var(--sp-2); display: flex; gap: 8px;">
+                            <button class="btn btn-gold" onclick="saveProduct()">حفظ</button>
+                            <button class="btn btn-outline" onclick="document.getElementById('product-form-container').style.display='none'">إلغاء</button>
+                        </div>
+                    </div>
+
+                    <div id="admin-products-list">
+                        <!-- قائمة المنتجات -->
+                    </div>
+                </div>
+
+                <!-- تبويب الإعدادات -->
+                <div id="tab-settings" class="admin-section">
+                    <div class="form-group">
+                        <label>رقم الواتساب (دولي بدون +)</label>
+                        <input type="text" id="set-wa" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>رابط اللوجو</label>
+                        <input type="text" id="set-logo" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>تاريخ نهاية العرض (للعداد التنازلي)</label>
+                        <input type="datetime-local" id="set-date" class="form-control">
+                    </div>
+                    <button class="btn btn-gold" onclick="saveSettings()">حفظ الإعدادات</button>
+                </div>
+
+                <!-- تبويب النسخ الاحتياطي -->
+                <div id="tab-backup" class="admin-section">
+                    <p style="margin-bottom: var(--sp-2); color: var(--text-light);">قم بتصدير بياناتك كملف JSON للاحتفاظ بنسخة احتياطية، أو استيراد ملف سابق.</p>
+                    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                        <button class="btn btn-primary" onclick="exportData()">تصدير JSON</button>
+                        <label class="btn btn-gold" style="cursor:pointer;">
+                            استيراد JSON
+                            <input type="file" id="import-file" accept=".json" style="display:none;" onchange="importData(event)">
+                        </label>
+                        <button class="btn btn-danger" style="background: var(--danger); color: white;" onclick="resetData()">استعادة الافتراضي</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================
+         JavaScript Logic
+         ============================================================ -->
+    <script>
+        // ==========================================
+        // 1. البيانات الأساسية (Data)
+        // ==========================================
+        const DEFAULT_CONFIG = {
+            settings: {
+                whatsapp: "201144410062",
+                logoUrl: "",
+                password: "admin123",
+                endDate: "2024-11-30T23:59:59" // [Placeholder] تاريخ نهاية العرض
+            },
+            categories: ["الكل", "ثلاجات", "غسالات", "شاشات", "تكييفات", "بوتاجازات", "أفران", "غسالات أطباق", "أجهزة مطبخ"],
+            products: [
+                { id: "1", name: "شاشة 55 بوصة LG سمارت 4K نانو", category: "شاشات", price: 24500, oldPrice: 28000, image: "", hidden: false, bestseller: true, limited: false },
+                { id: "2", name: "شاشة 43 بلوتو سمارت ضد الكسر", category: "شاشات", price: 12500, oldPrice: 14600, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "3", name: "شاشة 32 بوصة كاسيل عادية", category: "شاشات", price: 5250, oldPrice: 6300, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "4", name: "شاشة 32 شارب سمارت بحث صوتي", category: "شاشات", price: 9799, oldPrice: 11000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "5", name: "شاشة 55 شاومي سمارت 4K QLED", category: "شاشات", price: 21000, oldPrice: 27000, image: "", hidden: false, bestseller: true, limited: false },
+                { id: "6", name: "غسالة هاير 11 ك فوق أوتوماتيك انفرتر", category: "غسالات", price: 13999, oldPrice: 16500, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "7", name: "غسالة تورنيدو 8 ك فوق أوتوماتيك", category: "غسالات", price: 9599, oldPrice: 12000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "8", name: "غسالة LG فوق أوتوماتيك 10 ك انفرتر", category: "غسالات", price: 16999, oldPrice: 18000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "9", name: "غسالة هاير فوق أوتوماتيك 13 ك", category: "غسالات", price: 15999, oldPrice: 19000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "10", name: "غسالة LG فوق أوتوماتيك 15 ك", category: "غسالات", price: 23499, oldPrice: 26500, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "11", name: "غسالة تورنيدو 6 ك أوتوماتيك كامل تركي", category: "غسالات", price: 13999, oldPrice: 18500, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "12", name: "غسالة هاير 10 ك أوتوماتيك كامل انفرتر", category: "غسالات", price: 19500, oldPrice: 26000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "13", name: "غسالة بيكو 12 ك أوتوماتيك كامل", category: "غسالات", price: 29500, oldPrice: 38000, image: "", hidden: false, bestseller: true, limited: false },
+                { id: "14", name: "غسالة بوش 9 ك أوتوماتيك كامل جيل 4", category: "غسالات", price: 23499, oldPrice: 29000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "15", name: "غسالة LG أوتوماتيك 20 كيلو ربط تلفون", category: "غسالات", price: 53000, oldPrice: 58000, image: "", hidden: false, bestseller: true, limited: false },
+                { id: "16", name: "غسالة LG أوتوماتيك 15 كيلو ربط تلفون", category: "غسالات", price: 49000, oldPrice: 55000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "17", name: "غسالة بوش 8 ك أوتوماتيك كامل انفرتر", category: "غسالات", price: 20999, oldPrice: 25000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "18", name: "غسالة فريش 8 ك أوتوماتيك كامل", category: "غسالات", price: 18500, oldPrice: 22000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "19", name: "ثلاجة بيكو 18 قدم بخار لون سيلفر", category: "ثلاجات", price: 23999, oldPrice: 28000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "20", name: "ثلاجة 14 قدم بيكو 350 لتر أسود", category: "ثلاجات", price: 19499, oldPrice: 22000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "21", name: "ثلاجة بيكو 18 قدم موفرة للطاقة", category: "ثلاجات", price: 25500, oldPrice: 29000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "22", name: "ثلاجة بوش 21 قدم بخار كومبي 483 لتر", category: "ثلاجات", price: 46999, oldPrice: 52000, image: "", hidden: false, bestseller: true, limited: false },
+                { id: "23", name: "ثلاجة يونيون اير 24 قدم 545 لتر بلوتوث", category: "ثلاجات", price: 28999, oldPrice: 36000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "24", name: "ثلاجة بيكو 16 قدم انفرتر", category: "ثلاجات", price: 22499, oldPrice: 26000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "25", name: "ثلاجة بيكو 490 لتر دسبنسر شاشة ديجيتال", category: "ثلاجات", price: 47999, oldPrice: 55000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "26", name: "ثلاجة هاير انفرتر 18 قدم 449 لتر", category: "ثلاجات", price: 34000, oldPrice: 37000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "27", name: "ثلاجة دولاب بيكو ايس ميكر", category: "ثلاجات", price: 60000, oldPrice: 65000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "28", name: "ثلاجة مني بار كول ستار", category: "ثلاجات", price: 7500, oldPrice: 9000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "29", name: "تكييف هاير 1.5 بارد انفرتر ديجيتال", category: "تكييفات", price: 21600, oldPrice: 24000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "30", name: "تكييف فريش 1.5 بارد تربو", category: "تكييفات", price: 18800, oldPrice: 21000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "31", name: "تكييف شارب 1.5 بارد ديجيتال بلازما", category: "تكييفات", price: 25499, oldPrice: 27500, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "32", name: "تكييف هاير بارد ساخن انفرتر 1.5", category: "تكييفات", price: 24500, oldPrice: 28000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "33", name: "تكييف تورنيدو 1.5 بارد ساخن انفرتر", category: "تكييفات", price: 26500, oldPrice: 31000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "34", name: "تكييف تورنيدو 2.25 بارد ساخن انفرتر", category: "تكييفات", price: 39999, oldPrice: 48000, image: "", hidden: false, bestseller: true, limited: false },
+                { id: "35", name: "تكييف هاير 2.25 بارد انفرتر ديجيتال", category: "تكييفات", price: 34500, oldPrice: 38000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "36", name: "بوتاجاز رويال ماستر شيف برو أمان كامل", category: "بوتاجازات", price: 19999, oldPrice: 24000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "37", name: "بوتاجاز بيكو أمان كامل لون أسود", category: "بوتاجازات", price: 17999, oldPrice: 23000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "38", name: "بوتاجاز بوش أمان كامل حوامل زهر", category: "بوتاجازات", price: 22999, oldPrice: 26500, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "39", name: "بوتاجاز ريال تك أمان كامل غرف احتراق", category: "بوتاجازات", price: 13999, oldPrice: 16500, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "40", name: "بوتاجاز سنفر تركي بالكامل 3 مروحة", category: "بوتاجازات", price: 21000, oldPrice: 28000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "41", name: "بوتاجاز بوش بلت ان مسطح 75 ف 60", category: "بوتاجازات", price: 21000, oldPrice: 25000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "42", name: "بوتاجاز مسطح بلت ان رافال 60 ف 90", category: "بوتاجازات", price: 11000, oldPrice: 16500, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "43", name: "بوتاجاز بلت ان مسطح بيكو أمان كامل", category: "بوتاجازات", price: 17999, oldPrice: 24000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "44", name: "بوتاجاز مسطح بلت ان أسود سنفر", category: "بوتاجازات", price: 22000, oldPrice: 29000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "45", name: "بوتاجاز مسطح بلت ان فريش استنلس", category: "بوتاجازات", price: 9590, oldPrice: 11500, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "46", name: "فرن بلت ان بيكو 60 ف 60 أمان كامل", category: "أفران", price: 16600, oldPrice: 24000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "47", name: "فرن بلت ان رافال 90 ف 60 غاز", category: "أفران", price: 23999, oldPrice: 29000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "48", name: "فرن بلت ان زانوسي 60 ف 60 كهرباء", category: "أفران", price: 21999, oldPrice: 26000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "49", name: "فرن بلت ان 60 ف 60 يونيون اير", category: "أفران", price: 12500, oldPrice: 16000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "50", name: "غسالة أطباق بيكو 14 فرد سيلفر", category: "غسالات أطباق", price: 18900, oldPrice: 24000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "51", name: "غسالة أطباق اريستون 13 فرد تركي", category: "غسالات أطباق", price: 22000, oldPrice: 28000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "52", name: "غسالة أطباق بوش 13 فرد تركي", category: "غسالات أطباق", price: 25000, oldPrice: 30000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "53", name: "غسالة أطباق ليفون 13 فرد", category: "غسالات أطباق", price: 14999, oldPrice: 20000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "54", name: "غسالة أطباق بيكو 10 أفراد", category: "غسالات أطباق", price: 14500, oldPrice: 18000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "55", name: "غسالة أطباق زانوسي 13 فرد بولندي", category: "غسالات أطباق", price: 24999, oldPrice: 29000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "56", name: "غسالة أطباق بيكو 15 فرد استنلس", category: "غسالات أطباق", price: 31500, oldPrice: 38000, image: "", hidden: false, bestseller: true, limited: false },
+                { id: "57", name: "غسالة أطباق اريستون 14 فرد بولندي", category: "غسالات أطباق", price: 36500, oldPrice: 42000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "58", name: "غسالة أطباق هيتاشي الياباني 15 فرد", category: "غسالات أطباق", price: 43000, oldPrice: 47000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "59", name: "غسالة أطباق بوش 14 فرد جيل 6", category: "غسالات أطباق", price: 42000, oldPrice: 51000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "60", name: "مضرب بيض مينتا 500 وات", category: "أجهزة مطبخ", price: 1350, oldPrice: 2000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "61", name: "هاند بلندر مينتا 1000 وات", category: "أجهزة مطبخ", price: 1499, oldPrice: 2300, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "62", name: "إير فراير بلاك اند ديكر 7 لتر", category: "أجهزة مطبخ", price: 7500, oldPrice: 9000, image: "", hidden: false, bestseller: true, limited: false },
+                { id: "63", name: "عجان حلويات رافال 10 لتر جامبو", category: "أجهزة مطبخ", price: 7299, oldPrice: 9000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "64", name: "فرن مينتا 45 لتر برميم", category: "أجهزة مطبخ", price: 4300, oldPrice: 5500, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "65", name: "ميكرويف فريش 25 لتر منوال", category: "أجهزة مطبخ", price: 4899, oldPrice: 6000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "66", name: "هاند بلندر 600 وات اكسبان", category: "أجهزة مطبخ", price: 899, oldPrice: 1300, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "67", name: "عجان حلويات رافال 5 لتر", category: "أجهزة مطبخ", price: 4800, oldPrice: 6000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "68", name: "هاند بلندر بوش 800 وات", category: "أجهزة مطبخ", price: 3699, oldPrice: 5000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "69", name: "مفرمة لحم بوش ألماني 1600 وات", category: "أجهزة مطبخ", price: 4999, oldPrice: 8000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "70", name: "مكنسة كهربائية فريش 1600 وات", category: "أجهزة مطبخ", price: 2999, oldPrice: 4000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "71", name: "خلاط مولينكس الفرنساوي 700 وات", category: "أجهزة مطبخ", price: 2999, oldPrice: 4000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "72", name: "هاند بلندر مينتا 1000 وات مجموعة", category: "أجهزة مطبخ", price: 1999, oldPrice: 2900, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "73", name: "كاتل زجاج رافال بيكرس", category: "أجهزة مطبخ", price: 599, oldPrice: 1000, image: "", hidden: false, bestseller: false, limited: false },
+                { id: "74", name: "عجان حلويات رافال 7 لتر", category: "أجهزة مطبخ", price: 5999, oldPrice: 7500, image: "", hidden: false, bestseller: false, limited: false }
+            ]
+        };
+
+        // ==========================================
+        // 2. إدارة الحالة (State)
+        // ==========================================
+        let appData = JSON.parse(localStorage.getItem('alanwar_v3')) || DEFAULT_CONFIG;
+        let currentCategory = "الكل";
+        let searchQuery = "";
+        let sortBy = "default";
+        let currentPage = 1;
+        const itemsPerPage = 12;
+        let currentFiltered = [];
+
+        // ==========================================
+        // 3. التهيئة الأولية (Init)
+        // ==========================================
+        document.addEventListener('DOMContentLoaded', () => {
+            setupUI();
+            renderApp();
+            startCountdown();
+            checkHash();
+            
+            // Back to top scroll listener
+            window.addEventListener('scroll', () => {
+                const btn = document.getElementById('back-to-top');
+                if (window.scrollY > 300) btn.classList.add('show');
+                else btn.classList.remove('show');
+            });
+
+            // Hash change listener for admin
+            window.addEventListener('hashchange', checkHash);
+        });
+
+        function setupUI() {
+            // Logo
+            const logoImg = document.getElementById('header-logo');
+            if (appData.settings.logoUrl) {
+                logoImg.src = appData.settings.logoUrl;
+            }
+
+            // Max Discount for Hero
+            let maxDiscount = 0;
+            appData.products.forEach(p => {
+                if (!p.hidden && p.oldPrice && p.oldPrice > p.price) {
+                    const d = Math.round(((p.oldPrice - p.price) / p.oldPrice) * 100);
+                    if (d > maxDiscount) maxDiscount = d;
+                }
+            });
+            document.getElementById('hero-discount').textContent = maxDiscount + '%';
+
+            // Category Pills
+            const catContainer = document.getElementById('categories-container');
+            catContainer.innerHTML = appData.categories.map(cat => `
+                <button class="cat-pill ${cat === currentCategory ? 'active' : ''}" onclick="setCategory('${cat}')">${cat}</button>
+            `).join('');
+        }
+
+        function renderApp() {
+            setupUI();
+            applyFiltersAndSort();
+            renderProducts();
+        }
+
+        // ==========================================
+        // 4. الفلترة والفرز (Filter & Sort)
+        // ==========================================
+        function setCategory(cat) {
+            currentCategory = cat;
+            currentPage = 1;
+            setupUI();
+            applyFiltersAndSort();
+            renderProducts();
+        }
+
+        function handleSearch() {
+            searchQuery = document.getElementById('search-input').value.trim().toLowerCase();
+            currentPage = 1;
+            applyFiltersAndSort();
+            renderProducts();
+        }
+
+        function handleSort() {
+            sortBy = document.getElementById('sort-select').value;
+            currentPage = 1;
+            applyFiltersAndSort();
+            renderProducts();
+        }
+
+        function applyFiltersAndSort() {
+            let filtered = appData.products.filter(p => !p.hidden);
+
+            if (currentCategory !== "الكل") {
+                filtered = filtered.filter(p => p.category === currentCategory);
+            }
+
+            if (searchQuery) {
+                filtered = filtered.filter(p => p.name.toLowerCase().includes(searchQuery) || p.category.toLowerCase().includes(searchQuery));
+            }
+
+            // Sorting
+            if (sortBy === "price-asc") {
+                filtered.sort((a, b) => a.price - b.price);
+            } else if (sortBy === "price-desc") {
+                filtered.sort((a, b) => b.price - a.price);
+            } else if (sortBy === "discount-desc") {
+                filtered.sort((a, b) => {
+                    const dA = a.oldPrice ? (a.oldPrice - a.price) / a.oldPrice : 0;
+                    const dB = b.oldPrice ? (b.oldPrice - b.price) / b.oldPrice : 0;
+                    return dB - dA;
+                });
+            }
+
+            currentFiltered = filtered;
+        }
+
+        // ==========================================
+        // 5. عرض المنتجات (Render Products)
+        // ==========================================
+        function renderProducts() {
+            const grid = document.getElementById('products-grid');
+            const loadMoreBtn = document.getElementById('load-more-container');
+            
+            grid.innerHTML = ''; // Clear
+
+            if (currentFiltered.length === 0) {
+                grid.innerHTML = `<div class="empty-state"><h3>لا توجد نتائج مطابقة</h3><p>حاول تغيير كلمات البحث أو الفلاتر.</p></div>`;
+                loadMoreBtn.style.display = 'none';
+                return;
+            }
+
+            const itemsToShow = currentFiltered.slice(0, currentPage * itemsPerPage);
+            
+            grid.innerHTML = itemsToShow.map(p => {
+                const discount = p.oldPrice && p.oldPrice > p.price ? Math.round(((p.oldPrice - p.price) / p.oldPrice) * 100) : 0;
+                
+                const imgHTML = p.image 
+                    ? `<img src="${p.image}" alt="${p.name}" loading="lazy">` 
+                    : `<svg class="placeholder-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>`;
+
+                let badges = '';
+                if (discount > 0) badges += `<span class="badge badge-discount">خصم ${discount}%</span>`;
+                if (p.bestseller) badges += `<span class="badge badge-bestseller">الأكثر طلباً</span>`;
+                if (p.limited) badges += `<span class="badge badge-limited">كمية محدودة</span>`;
+
+                return `
+                    <article class="product-card">
+                        <div class="product-img">
+                            ${imgHTML}
+                            <div class="badges-container">${badges}</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">${p.name}</h3>
+                            <div class="product-price">
+                                <span class="price-current">${p.price.toLocaleString('en-US')} ج.م</span>
+                                ${p.oldPrice ? `<span class="price-old">${p.oldPrice.toLocaleString('en-US')} ج.م</span>` : ''}
+                            </div>
+                            <button class="btn btn-wa" onclick="askProduct('${p.name.replace(/'/g, "\\'")}', ${p.price})">
+                                <svg viewBox="0 0 24 24" style="fill:currentColor; stroke:none; width:16px; height:16px;"><path d="M17.5 14.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-1.6-.8-2.7-1.5-3.7-3.3-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.6-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.9 0 1.7 1.2 3.3 1.4 3.5.2.2 2.4 3.7 5.9 5.1 2.2.9 3.1.9 4.2.8.7-.1 2.1-.9 2.4-1.7.3-.8.3-1.5.2-1.7-.1-.1-.3-.2-.5-.3z"/></svg>
+                                اطلب عبر واتساب
+                            </button>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+
+            if (itemsToShow.length < currentFiltered.length) {
+                loadMoreBtn.style.display = 'block';
+            } else {
+                loadMoreBtn.style.display = 'none';
+            }
+        }
+
+        function loadMore() {
+            currentPage++;
+            renderProducts();
+        }
+
+        // ==========================================
+        // 6. الواتساب والعداد التنازلي
+        // ==========================================
+        function openWA() {
+            const msg = "السلام عليكم، أرغب في الاستفسار عن عروض الأنوار مول.";
+            window.open(`https://wa.me/${appData.settings.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
+        }
+
+        function askProduct(name, price) {
+            const msg = `السلام عليكم، أرغب بالاستفسار عن: ${name} - بسعر ${price} ج.م. هل متوفر؟`;
+            window.open(`https://wa.me/${appData.settings.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
+        }
+
+        function startCountdown() {
+            const endDate = new Date(appData.settings.endDate).getTime();
+            const container = document.getElementById('countdown');
+
+            const timer = setInterval(() => {
+                const now = new Date().getTime();
+                const distance = endDate - now;
+
+                if (distance < 0) {
+                    clearInterval(timer);
+                    container.innerHTML = "<p style='color:var(--gold); font-weight:bold;'>انتهى العرض!</p>";
+                    return;
+                }
+
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                container.innerHTML = `
+                    <div class="countdown-box"><span>${days}</span><label>يوم</label></div>
+                    <div class="countdown-box"><span>${hours}</span><label>ساعة</label></div>
+                    <div class="countdown-box"><span>${minutes}</span><label>دقيقة</label></div>
+                    <div class="countdown-box"><span>${seconds}</span><label>ثانية</label></div>
+                `;
+            }, 1000);
+        }
+
+        // ==========================================
+        // 7. لوحة التحكم (Admin Logic)
+        // ==========================================
+        function checkHash() {
+            if (window.location.hash === '#admin') {
+                const pwd = prompt("أدخل كلمة المرور:");
+                if (pwd === appData.settings.password) {
+                    document.getElementById('admin-panel').classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                    loadAdminData();
+                } else if (pwd !== null) {
+                    alert("كلمة المرور غير صحيحة");
+                    window.location.hash = '';
+                }
+            }
+        }
+
+        function closeAdmin() {
+            document.getElementById('admin-panel').classList.remove('active');
+            document.body.style.overflow = '';
+            window.location.hash = '';
+            renderApp(); // Refresh public site
+        }
+
+        function switchTab(tabId, event) {
+            document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.admin-section').forEach(s => s.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        function loadAdminData() {
+            // Settings
+            document.getElementById('set-wa').value = appData.settings.whatsapp;
+            document.getElementById('set-logo').value = appData.settings.logoUrl;
+            document.getElementById('set-date').value = appData.settings.endDate;
+
+            // Products List
+            const list = document.getElementById('admin-products-list');
+            list.innerHTML = appData.products.map(p => `
+                <div class="admin-list-item ${p.hidden ? 'hidden' : ''}">
+                    <div class="admin-item-info">
+                        <h4>${p.name}</h4>
+                        <span>${p.price.toLocaleString()} ج.م - ${p.category}</span>
+                    </div>
+                    <div class="admin-actions">
+                        <button class="btn btn-outline btn-sm" onclick="editProduct('${p.id}')">تعديل</button>
+                        <button class="btn btn-outline btn-sm" style="color:var(--danger); border-color:var(--danger)" onclick="deleteProduct('${p.id}')">حذف</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function saveSettings() {
+            appData.settings.whatsapp = document.getElementById('set-wa').value;
+            appData.settings.logoUrl = document.getElementById('set-logo').value;
+            appData.settings.endDate = document.getElementById('set-date').value;
+            saveToStorage();
+            alert("تم حفظ الإعدادات!");
+            loadAdminData();
+        }
+
+        function showProductForm() {
+            document.getElementById('prod-id').value = '';
+            document.getElementById('prod-name').value = '';
+            document.getElementById('prod-category').value = 'ثلاجات';
+            document.getElementById('prod-price').value = '';
+            document.getElementById('prod-oldprice').value = '';
+            document.getElementById('prod-image').value = '';
+            document.getElementById('prod-hidden').checked = false;
+            document.getElementById('prod-bestseller').checked = false;
+            document.getElementById('prod-limited').checked = false;
+            document.getElementById('img-preview').innerHTML = '<span style="font-size: 12px; color: var(--text-light);">لا توجد صورة</span>';
+            document.getElementById('product-form-container').style.display = 'block';
+        }
+
+        function editProduct(id) {
+            const p = appData.products.find(x => x.id === id);
+            if (!p) return;
+
+            document.getElementById('prod-id').value = p.id;
+            document.getElementById('prod-name').value = p.name;
+            document.getElementById('prod-category').value = p.category;
+            document.getElementById('prod-price').value = p.price;
+            document.getElementById('prod-oldprice').value = p.oldPrice || '';
+            document.getElementById('prod-image').value = p.image || '';
+            document.getElementById('prod-hidden').checked = p.hidden || false;
+            document.getElementById('prod-bestseller').checked = p.bestseller || false;
+            document.getElementById('prod-limited').checked = p.limited || false;
+            
+            updateImgPreview();
+            document.getElementById('product-form-container').style.display = 'block';
+        }
+
+        function updateImgPreview() {
+            const url = document.getElementById('prod-image').value;
+            const preview = document.getElementById('img-preview');
+            if (url) {
+                preview.innerHTML = `<img src="${url}" onerror="this.parentElement.innerHTML='<span style=\\'font-size:12px;color:red;\\'>رابط غير صالح</span>'">`;
+            } else {
+                preview.innerHTML = '<span style="font-size: 12px; color: var(--text-light);">لا توجد صورة</span>';
+            }
+        }
+
+        function saveProduct() {
+            const id = document.getElementById('prod-id').value;
+            const name = document.getElementById('prod-name').value.trim();
+            const category = document.getElementById('prod-category').value;
+            const price = Number(document.getElementById('prod-price').value);
+            const oldPrice = Number(document.getElementById('prod-oldprice').value) || 0;
+            const image = document.getElementById('prod-image').value.trim();
+            const hidden = document.getElementById('prod-hidden').checked;
+            const bestseller = document.getElementById('prod-bestseller').checked;
+            const limited = document.getElementById('prod-limited').checked;
+
+            if (!name || !price) {
+                alert("يرجى إدخال اسم المنتج والسعر.");
+                return;
+            }
+
+            const prodData = { name, category, price, oldPrice, image, hidden, bestseller, limited };
+
+            if (id) {
+                const p = appData.products.find(x => x.id === id);
+                Object.assign(p, prodData);
+            } else {
+                appData.products.push({ id: Date.now().toString(), ...prodData });
+            }
+
+            saveToStorage();
+            loadAdminData();
+            document.getElementById('product-form-container').style.display = 'none';
+            alert("تم الحفظ بنجاح!");
+        }
+
+        function deleteProduct(id) {
+            if (confirm("هل أنت متأكد من حذف هذا المنتج نهائياً؟")) {
+                appData.products = appData.products.filter(x => x.id !== id);
+                saveToStorage();
+                loadAdminData();
+            }
+        }
+
+        function saveToStorage() {
+            localStorage.setItem('alanwar_v3', JSON.stringify(appData));
+        }
+
+        // Backup
+        function exportData() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appData, null, 2));
+            const a = document.createElement('a');
+            a.href = dataStr;
+            a.download = "alanwar_backup.json";
+            a.click();
+        }
+
+        function importData(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const imported = JSON.parse(e.target.result);
+                    if (imported.settings && imported.products) {
+                        appData = imported;
+                        saveToStorage();
+                        loadAdminData();
+                        alert("تم استيراد البيانات بنجاح! سيتم تحديث الموقع عند الإغلاق.");
+                    } else {
+                        alert("ملف غير صالح.");
+                    }
+                } catch (err) {
+                    alert("خطأ في قراءة الملف.");
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function resetData() {
+            if (confirm("سيتم مسح جميع التعديلات واستعادة البيانات الافتراضية. هل أنت متأكد؟")) {
+                localStorage.removeItem('alanwar_v3');
+                appData = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+                saveToStorage();
+                loadAdminData();
+                alert("تم استعادة الإعدادات الافتراضية.");
+            }
+        }
+    </script>
+</body>
+</html>
